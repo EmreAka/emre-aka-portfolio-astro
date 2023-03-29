@@ -1,3 +1,10 @@
-<div class="border-t-8 border-black w-full py-3">
+<div class="border-t-8 border-black w-full py-3 my-grid">
     <slot />
 </div>
+
+<style>
+    .my-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+</style>
