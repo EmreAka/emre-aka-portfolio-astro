@@ -22,3 +22,4 @@ pnpm-debug.log*
 .firebaserc
 firebase.json
 .firebase/hosting.ZGlzdA.cache
+src/layouts/Layout.astro
